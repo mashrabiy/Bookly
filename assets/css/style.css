@@ -44,6 +44,10 @@ body{
     height: 300rem;
 }
 
+section{
+    padding: 5rem 9%;
+}
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -261,6 +265,47 @@ body{
     cursor: pointer;
 }
 
+.home{
+    background: url() no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.home .row .content{
+    flex: 1 1 42rem;
+}
+
+.home .row .books-slider{
+    flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home .row .books-slider a img{
+    height: 25rem;
+}
+
+.home .row .books-slider a:hover img{
+    transform:  scale(.9);
+}
+
+.home .row .books-slider.stand{
+    width: 100%;
+    margin-top: -2rem;
+}
+
+
+
+
+
+
+
 
 /*media*/
 @media (max-width:991px){
@@ -270,6 +315,10 @@ body{
 
     .header .header-1{
         padding: 2rem;
+    }
+
+    section{
+        padding:3rem 2rem ;
     }
 }
 @media (max-width:768px){
