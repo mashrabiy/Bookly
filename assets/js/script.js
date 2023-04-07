@@ -24,3 +24,23 @@ Window.onscroll = () =>{
 
     }
 }
+
+var swiper = new swiper(".books-slider", {
+    loop:true,
+    centeredSlides: true,
+    autoplay:{
+        delay:9500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 5,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+  });

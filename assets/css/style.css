@@ -300,6 +300,18 @@ section{
     margin-top: -2rem;
 }
 
+.home .row .content h3{
+    color: var(--black);
+    font-size: 4.5rem;
+}
+
+.home .row .content p{
+    color: var(--light-color);
+    font-size: 1.4rem; 
+    line-height: 2;
+    padding: 1rem 0;  
+}
+
 
 
 
@@ -357,6 +369,13 @@ section{
 
     .header.header-1.search-form.active{
         top:115%
+    }
+    .home .row .content{
+        text-align: center;
+    }
+
+    .home .row .content h3{
+        font-size: 3.5rem;
     }
 }
 
