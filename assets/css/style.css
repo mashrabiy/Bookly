@@ -7,7 +7,7 @@
     --light-color: #666;
     --border:.1rem solid rgba(0,0,0,.1);
     --border-hover:.1rem solid var(--black);
-    --box-shadow:0 .5 1rem rgba(0,0,0,.1);
+    --box-shadow:0 .5 1rem rgba(0,0,0,.1);  
 }
 
 *{
@@ -16,7 +16,6 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none ;
-    text-transform: capitalize;
     transition:all .2s linear;
     transition: width none;
 }
@@ -87,8 +86,8 @@ section{
 
 .btn:hover{
     background: var(--dark-color);
-
 }
+
 
 .header .header-1{
     background: #fff;
