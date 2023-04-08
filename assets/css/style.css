@@ -87,7 +87,6 @@ section{
     background: var(--dark-color);
 }
 
-
 .header .header-1{
     background: #fff;
     padding: 1.5rem 9%;
@@ -104,7 +103,6 @@ section{
 
 .header .header-1 .logo i{
     color: var(--green);
-
 }
 
 .header .header-1 .search-form{
@@ -120,7 +118,7 @@ section{
 
 .header .header-1 .search-form input{
     font-size: 1.6rem;
-    padding: 0. 1.2rem;
+    padding: 0 1.2rem;
     height: 100%;
     width: 100%;
     text-transform: none;
@@ -128,10 +126,10 @@ section{
 }
 
 .header .header-1 .search-form label{
-    font-size: 2.5;
-    padding: 1.5rem;
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
     color: var(--black);
-    cursor: pointer ;
+    cursor: pointer;
 }
 
 .header .header-1 .search-form label:hover{
@@ -289,7 +287,7 @@ section{
 }
 
 .home{
-    background: url() no-repeat;
+    background: url(/assets/img/header-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -366,7 +364,6 @@ section{
 }
 
 .featured .featured-slider .box{
-    width: 25rem;
     margin: 2rem 0;
     position: relative;
     overflow: hidden;
@@ -382,7 +379,7 @@ section{
     transform: translateY(6rem);
 }
 
-.featured .books-slider .box .image{
+.featured .featured-slider .box .image{
     padding: 1rem;
     background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
 }
@@ -392,12 +389,12 @@ section{
 }
 
 .featured .featured-slider .box .icons{
-    padding-bottom: var(--border-hover);
+    border-bottom: var(--border-hover);
     position: absolute;
     top: 0; left: 0; right: 0;
     background: #fff;
     z-index: 1;
-    transform: translateY(-100%);
+    transform: translateY(-105%);
 }
 
 .featured .featured-slider .box:hover .icons{
@@ -407,7 +404,7 @@ section{
 .featured .featured-slider .box .icons a{
     color: var(--black);
     font-size: 2.2rem;
-    margin: 1.5rem;
+    padding: 1.3rem 1.5rem;
 }
 
 .featured .featured-slider .box .icons a:hover{
