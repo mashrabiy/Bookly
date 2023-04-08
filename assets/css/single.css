@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+:root{
+    --green:#27ae60;
+    --dark-color: #219150;
+    --black: #444;
+    --light-color: #666;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5 1rem rgba(0,0,0,.1);  
+}
+
+*{
+    font-family: 'Sora', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none ;
+    transition:all .2s linear;
+    transition: width none;
+}
+
+.single-book .row .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.single-book .row .content .product-image{
+    padding: 0 15px;
+}
+
+.single-book .row .info{
+    padding: 0 15px;
+    flex: 1 1 42rem;
+}
+
+.single-book .row .content .info .product-tags{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: var(--light-color);
+}
+
+.single-book .row .content .info .product-tags a{
+    color: var(--black);
+    transition: all .3s ease-in-out;
+    margin: 3px;
+}
+
+.single-book .row .info .product-tags a:hover{
+    color: var(--green);
+}
+
+.single-book .row .info ul.list-unstyled{
+    margin-bottom: 13px;
+    position: relative;
+    font-size: 13px;
+}
+
+.single-book .row .info ul.list-unstyled li{
+    display: block;
+    line-height: 22px;
+}
+
+.single-book .row .info ul.list-unstyled li a{
+    color: var(--green);
+    font-weight: 700;
+}
+
+.single-book .row .info .name{
+    font-size: 3.1rem;
+    text-transform: capitalize;
+    margin: 0 0 15px;
+    background: none;
+    line-height: 1;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.single-book .row .info .price{
+    font-size: 3rem;
+    color: var(--green);
+    margin-bottom: 13px;
+    font-weight: 600;
+}
+
+.single-book .row .info .stars{
+    color: var(--light-color);
+}
+
+.single-book .row .info .stars i{
+    color: var(--green);
+}
+
+.single-book .row .info .price span{
+    font-size: 1.5rem;
+    color: var(--light-color);
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.single-book .row .info .product-des{
+    font-size: 1.4rem;
+    line-height: 20px;
+    padding: 18px 0;
+    color: var(--black1);
+}
+
+.single-book .row .info .form-group button{
+    margin-right: 1.5rem;
+}

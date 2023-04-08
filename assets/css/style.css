@@ -71,6 +71,11 @@ section{
     border: var(--border);
 }
 
+.list-unstyled{
+    list-style: none;
+    padding-left: 0;
+}
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -85,6 +90,25 @@ section{
 
 .btn:hover{
     background: var(--dark-color);
+}
+
+.btn-secondary{
+    border: var(--border-hover);
+    color: var(--black);
+    background: #fff;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-secondary:hover{
+    border: var(--border-hover);
+    color: #fff;
+    background-color: var(--light-color);
 }
 
 .header .header-1{
@@ -298,6 +322,7 @@ section{
     flex-wrap: wrap;
     gap: 1.5rem;
 }
+
 .home .row .content{
     flex: 1 1 42rem;
 }

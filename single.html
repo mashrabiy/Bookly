@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bookly</title>
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" 
@@ -12,8 +12,91 @@
     <!--font -->
     <link rel="stylesheet" 
           href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/single.css">
 </head>
 <body>
-    
+    <!--header setion starts-->
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i> bookly</a>
+            <form action="" method="post" class="search-form">
+                <input type="search" name="" placeholder="Kitoblarni oson izlang ..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#featured">featured</a>
+                <a href="#arrivals">arrivals</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!--bottom-->
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+    <section class="single-book">
+        <div class="row">
+            <div class="content">
+                <div class="product-image">
+                    <img src="/assets/img/book-1.png" alt="book" class="thumbnail">
+                </div>
+                <div class="info">
+                    <p class="product-tags">
+                        Teglar 
+                        <a href="#">tag</a>
+                        <a href="#">tag</a>
+                        <a href="#">tag</a>
+                    </p>
+                    <h1 class="name">Silent Women</h1>
+                    <ul class="list-unstyled">
+                        <li>Brand: <a href="#" title="Amazona">Amazona</a></li>
+                        <li>Availability: <span class="ex-text" style="color: rgb(102, 170, 0);">In Stock</span></li>
+                        <li>SKU: <span>789</span></li>
+                        <li>Barcode: <span class="variant-barcode"></span></li>
+                      </ul>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        2 reviews
+                    </div>
+                    <p class="product-des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <div class="form-group">
+                        <button class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16">
+                                <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
+                            </svg>
+                            Savatga qo'shish
+                        </button>
+                        <button class="btn-secondary">
+                            Xarid qilish
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
