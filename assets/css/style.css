@@ -763,6 +763,12 @@ section{
     box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, 10%);
 }
 
+.register .container .box p{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: var(--light-color);
+}
+
 .register .container .box h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
