@@ -768,6 +768,10 @@ section{
         padding:3rem 2rem ;
     }
 }
+
+
+
+
 @media (max-width:768px){
 
     html{
@@ -795,14 +799,14 @@ section{
         position: relative;
     }
 
-    .header.header-1.search-form{
+    .header .header-1 .search-form{
         position: absolute;
         top: -115%; right: 2rem;
         width: 90%;
         box-shadow: var(--box-shadow);
     }
 
-    .header.header-1.search-form.active{
+    .header .header-1 .search-form.active{
         top:115%
     }
     .home .row .content{
@@ -822,6 +826,11 @@ section{
         max-width: 100%;
     }
 }
+
+
+
+
+
 
 @media (max-width:450px){
     html{
