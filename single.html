@@ -51,52 +51,57 @@
         <a href="#blogs" class="fas fa-blog"></a>
     </nav>
 
-    <section class="single-book">
+    <div class="small-container single-product">
         <div class="row">
-            <div class="content">
-                <div class="product-image">
-                    <img src="/assets/img/book-1.png" alt="book" class="thumbnail">
-                </div>
-                <div class="info">
-                    <p class="product-tags">
-                        Teglar 
-                        <a href="#">tag</a>
-                        <a href="#">tag</a>
-                        <a href="#">tag</a>
-                    </p>
-                    <h1 class="name">Silent Women</h1>
-                    <ul class="list-unstyled">
-                        <li>Brand: <a href="#" title="Amazona">Amazona</a></li>
-                        <li>Availability: <span class="ex-text" style="color: rgb(102, 170, 0);">In Stock</span></li>
-                        <li>SKU: <span>789</span></li>
-                        <li>Barcode: <span class="variant-barcode"></span></li>
-                      </ul>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                        2 reviews
+            <div class="col-2">
+                <img src="/assets/img/book-1.png" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="/assets/img/book-1.png" width="100%" class="small-img">
                     </div>
-                    <p class="product-des">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    </p>
-                    <div class="form-group">
-                        <button class="btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16">
-                                <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
-                            </svg>
-                            Savatga qo'shish
-                        </button>
-                        <button class="btn-secondary">
-                            Xarid qilish
-                        </button>
+
+                    <div class="small-img-col">
+                        <img src="/assets/img/book-1.png" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="/assets/img/book-1.png" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="/assets/img/book-1.png" width="100%" class="small-img">
                     </div>
                 </div>
             </div>
+            <div class="col-2">
+                <p>Home / T-Shirts</p>
+                <h1>T-Shirts by Enjoy Dude</h1>
+                <h3>Product Details <i class="fa fa-indent"></i> </h3>
+                <br>
+                <p>Lorem ipsum dfdfdfdfdwsf  dsffedrer dolor sit amet consectetur adipisicing elit.</p>
+                <h4>$29.99</h4>
+                <input type="number" value="1">
+                <a href="" class="btn">Savatga qo'shish</a>
+                <a href="" class="btn-secondary">Xarid qilish</a>
+            </div>
         </div>
-    </section>
+    </div>
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function(){
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function(){
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function(){
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function(){
+        ProductImg.src = SmallImg[3].src;
+    }
+</script>
 </body>
 </html>
