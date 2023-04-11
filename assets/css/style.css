@@ -93,9 +93,9 @@ section{
 }
 
 .btn-secondary{
-    border: var(--border-hover);
-    color: var(--black);
-    background: #fff;
+    border:  #ff523b;;
+    color: #fff;
+    background:  #ff523b;;
     border-radius: .5rem;
     margin-top: 1rem;
     display: inline-block;
@@ -103,12 +103,6 @@ section{
     font-size: 1.7rem;
     cursor: pointer;
     font-weight: 500;
-}
-
-.btn-secondary:hover{
-    border: var(--border-hover);
-    color: #fff;
-    background-color: var(--light-color);
 }
 
 .header .header-1{
@@ -696,7 +690,8 @@ section{
 }
 
 .footer .box-container .box .map{
-    width: 100%;
+    margin-top: 30px;
+    width: 50%;
 }
 
 .footer .share{
