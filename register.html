@@ -5,24 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <div class="register-container">
-        <form action="" method="post">
-            <h3>Ro'yxatdan o'tish</h3>
-            <span>Elektron pochta</span>
-            <input type="email" name="" class="box" placeholder="Elektron pochtangizni kiriting" id="" required>
-            <span>Parol</span>
-            <input type="password" name="" class="box" placeholder="Parolni kiriting" id="" required>
-            <div class="checkbox">
-                <input type="checkbox" name="" id="remember-me">
-                <label for="remember-me">Meni eslab qol</label>
-            </div> 
-            <input type="submit" value="Kirish" class="btn">
-            <p>Parolni unutdingizmi ? <a href="#">Bu yerga</a></p>
-            <p>Hisobingiz mavjud emasmi ? <a href="#">hoziroq yarating</a></p>
-        </form>
+    <div class="register">
+        <div class="container">
+            <div class="box">
+                <h1>Registratsiya</h1>
+                <form>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Ismingizni yozing">
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" required placeholder="Elektron pochta manzilingiz">
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" required placeholder="Parol yarating">
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="tel" placeholder="Parolni tasdiqlang">
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-calendar"></i>
+                        <input type="date">
+                    </div>
+                    <input type="submit" value="Yuborish" class="btn">
+                </form>
+                <span>
+                    Hisobingiz mavjudmi ?
+                    <a href="index.html">Faollashtiring</a>
+                </span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
