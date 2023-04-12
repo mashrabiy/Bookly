@@ -755,6 +755,7 @@ section{
 }
 
 .register .container .box {
+    text-align: center;
     background-color: white;
     border-radius: 10px;
     padding: 45px;
@@ -775,6 +776,12 @@ section{
     color: var(--black);
     text-align: center;
     margin-bottom: 35px;
+}
+
+.register .container .box .img-confirm {
+    width: 8.2rem;
+    height: 8.2rem;
+    margin-bottom: 2.2rem;
 }
 
 .register .container .box form div {
