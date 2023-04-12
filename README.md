@@ -73,11 +73,11 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-[![Mashrabiy](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/mashrabiy)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
+[![Mashrabiy](https://avatars.githubusercontent.com/u/130046847?v=4)](https://github.com/mashrabiy)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
 ---|---
 [Sadikov Dev ](https://github.com/iRavshan) | [Quandl](https://www.quandl.com)
 
 ## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
 
-MIT © [Harsh Vijay ](https://github.com/iharsh234)
+MIT © [Mashrab Niyozov ](https://github.com/mashrabiy)
 
