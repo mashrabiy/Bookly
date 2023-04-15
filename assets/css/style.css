@@ -17,6 +17,7 @@
     text-decoration: none ;
     transition:all .2s linear;
     transition: width none;
+    -webkit-box-sizing: border-box;
 }
 
 html{
@@ -755,6 +756,7 @@ section{
 }
 
 .register .container .box {
+    text-align: center;
     background-color: white;
     border-radius: 10px;
     padding: 45px;
@@ -775,6 +777,12 @@ section{
     color: var(--black);
     text-align: center;
     margin-bottom: 35px;
+}
+
+.register .container .box .img-confirm {
+    width: 8.2rem;
+    height: 8.2rem;
+    margin-bottom: 2.2rem;
 }
 
 .register .container .box form div {
@@ -830,6 +838,198 @@ section{
 .register .container .box span a {
     color: var(--green);
     text-decoration: underline;
+}
+
+.filter-section .wrapper{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.filter-section .wrapper .category-filter .container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filter-section .wrapper .category-filter{
+    margin-top: 40px;
+}
+
+.filter-section .wrapper .category-filter .container .title{
+    margin-bottom: 40px;
+}
+
+.filter-section .wrapper .category-filter .container .title h1{
+    color: var(--black);
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.3rem;
+    letter-spacing: 1px;
+}
+
+.filter-section .wrapper .category-filter .container .filter-btns{
+    text-align: center;
+}
+
+.filter-section .wrapper .category-filter .container .filter-btns .filter-btn{
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 16px;
+    color: #d3d3d3;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-section .wrapper .category-filter .container .filter-btns .filter-btn::after{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: 2px;
+    width: 0;
+    background-color: var(--black);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+.filter-section .wrapper .category-filter .container .filter-btns .filter-btn:hover{
+    color: var(--black);
+}
+
+.filter-section .wrapper .category-filter .container .filter-btns .filter-btn:hover::after{
+    width: 100%;
+}
+
+/* active button */
+.filter-section .wrapper .category-filter .container .filter-btns .active-btn{
+    color: var(--black);
+}
+
+.filter-section .wrapper .category-filter .container .filter-btns .active-btn::after{
+    width: 100%;
+}
+/*  */
+
+.filter-section .wrapper .category-filter .container .filter-items{
+    margin-top: 40px;
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item .item-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item .item-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(212, 203, 203, 0.1);
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item .item-img .discount{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: var(--green);
+    z-index: 1;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 16px;
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item .item-img img{
+    width: 100%;
+    display: block;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item:hover .item-img img{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item .item-info{
+    padding: 14px 0;
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item .item-info a{
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 8px;
+    color: var(--black);
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item .item-info a:hover{
+    color: var(--green);
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item .item-info .author{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--light-color);
+}
+
+.filter-section .wrapper .category-filter .container .filter-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.filter-section .wrapper .category-filter .container .filter-items .filter-item{
+    width: 100%;
+    margin-bottom: 40px;
+    -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 /*media*/
@@ -919,3 +1119,23 @@ section{
         padding: 2rem;
     }
 }
+
+@media screen and (min-width: 768px){
+    .filter-section .wrapper .category-filter .container .filter-items .filter-item{
+        width: calc(50% - 30px);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .filter-section .wrapper .category-filter .container .filter-items .filter-item{
+        width: calc(100% / 2 - 0.01px);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .filter-section .wrapper .category-filter .container .filter-items .filter-item{
+        width: calc(25% - 30px);
+    }
+}
+
+
