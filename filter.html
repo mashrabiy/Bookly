@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Category Filter</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!--header setion starts-->
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i> bookly</a>
+            <form action="" method="post" class="search-form">
+                <input type="search" name="" placeholder="Kitoblarni oson izlang ..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#featured">featured</a>
+                <a href="#arrivals">arrivals</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!--bottom-->
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+    <div class="filter-section">
+        <div class = "wrapper">
+            <div class = "category-filter">
+                <div class = "container">
+                    <div class = "title">
+                        <h1>Featured Products</h1>
+                    </div>
+    
+                    <div class = "filter-btns">
+                        <button type = "button" class = "filter-btn" id = "all">Barcha</button>
+                        <button type = "button" class = "filter-btn" id = "new">new</button>
+                        <button type = "button" class = "filter-btn" id = "best-sellers">best seller</button>
+                        <button type = "button" class = "filter-btn" id = "specials">specials</button>
+                    </div>
+    
+                    <div class = "filter-items">
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/js.jpg" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <a href="#">Eloquent JavaScript Third Edition</a>
+                                <p class="author">Marjin Haverbeke</p>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/py.jpg" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <a href="#">High performance python</a>
+                                <p class="author">Micha Gorelick & Ian Ozsvald</p>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/any.jpg" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <a href="#">Effective Computation in Physics</a>
+                                <div class="author">Micha Gorelick & Ian Ozsvald</div>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <a href="#">
+                                    <img src = "/assets/img/csharp.jpeg" alt = "Item image">
+                                    <span class = "discount">20%</span>
+                                </a>
+                            </div>
+                            <div class = "item-info">
+                                <a href="#">Learn C# in one day and learn it well</a>
+                                <div class="author">Jamie Chan</div>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/book-1.png" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cool Item Name</p>
+                                <div>
+                                    <span class = "author">$20.50</span>
+                                </div>
+                                <a href = "#" class ="btn">Add to Cart</a>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/book-1.png" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cool Item Name</p>
+                                <div>
+                                    <span class = "author">$20.50</span>
+                                </div>
+                                <a href = "#" class ="btn">Add to Cart</a>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/book-1.png" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cool Item Name</p>
+                                <div>
+                                    <span class = "author">$20.50</span>
+                                </div>
+                                <a href = "#" class ="btn">Add to Cart</a>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/book-1.png" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cool Item Name</p>
+                                <div>
+                                    <span class = "author">$20.50</span>
+                                </div>
+                                <a href = "#" class ="btn">Add to Cart</a>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/book-1.png" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cool Item Name</p>
+                                <div>
+                                    <span class = "author">$20.50</span>
+                                </div>
+                                <a href = "#" class ="btn">Add to Cart</a>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/book-1.png" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cool Item Name</p>
+                                <div>
+                                    <span class = "author">$20.50</span>
+                                </div>
+                                <a href = "#" class ="btn">Add to Cart</a>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/book-1.png" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cool Item Name</p>
+                                <div>
+                                    <span class = "author">$20.50</span>
+                                </div>
+                                <a href = "#" class ="btn">Add to Cart</a>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "/assets/img/book-1.png" alt = "Item image">
+                                <span class = "discount">20%</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cool Item Name</p>
+                                <div>
+                                    <span class = "author">$20.50</span>
+                                </div>
+                                <a href = "#" class ="btn">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/assets/js/script.js"></script>
+    <script src = "/assets/js/filter.js"></script>
+</body>
+</html>
